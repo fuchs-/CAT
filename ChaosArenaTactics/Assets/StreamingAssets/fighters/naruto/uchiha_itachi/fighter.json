@@ -1,0 +1,148 @@
+{
+  "id": "uchiha_itachi",
+  "name": "Uchiha Itachi",
+  "shortName": "Itachi",
+  "universe": "Naruto",
+  "affiliation": "Akatsuki",
+  "power": 100,
+  
+  "strength": 21,
+  "strengthGain": 2.2,
+  "agility": 23,
+  "agilityGain": 3.7,
+  "intelligence": 15,
+  "intelligenceGain": 1.4,
+  
+  "HP": 200,
+  "HPRegen": 0.25,
+  "MP": 75,
+  "MPRegen": 0,
+  
+  "moveSpeed": 3,
+  "armor": 1,
+  "magicResistance": 25,
+  "attackDamage": 24,
+  "attackSpeed": 0.59,
+  "attackRange": 1,
+  "criticalChance": 0,
+  "criticalDamage": 0,
+  "spellDamage": 0,
+  
+  "abilities": [
+    {
+      "id": "itachi_fireball_jutsu",
+      "name": "Fireball Jutsu",
+      "scriptFunctionName": "fireballJutsu",
+      "image": "itachi_fireball_jutsu",
+      "type": "area_target",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": "40,50,60,70",
+      "cooldown": "11,9,7,5",
+      "castRange": "3,4,5,6",
+      "area": "5:3",
+      "areaType": "rectangle_from_unit",
+      "levelUpRequires": [
+        ["fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"]
+      ],
+      "requires": null
+    },
+    {
+      "id": "itachi_sharingan",
+      "name": "Sharingan",
+      "scriptFunctionName": "sharingan",
+      "image": "sharingan_level_1",
+      "type": "toggle",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": "25,20,15,10",
+      "cooldown": "0",
+      "castRange": null,
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": [
+        ["fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"]
+      ],
+      "requires": null
+    },
+    {
+      "id": "itachi_tsukuyomi",
+      "name": "Tsukuyomi",
+      "scriptFunctionName": "tsukuyomi",
+      "image": "itachi_tsukuyomi",
+      "type": "unit_target",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": "240,210,180,150",
+      "cooldown": "10,8,6,5",
+      "castRange": "3",
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": [
+        ["itachi_sharingan","fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"],
+        ["fighter:9"],
+      ],
+      "requires": [["itachi_sharingan:active"]]
+    },
+    {
+      "id": "itachi_amaterasu",
+      "name": "Amaterasu",
+      "scriptFunctionName": "amaterasu",
+      "image": "itachi_amaterasu",
+      "type": "area_target",
+      "maxLevel": 3,
+      "isUltimate": true,
+      "manaCost": "380,340,310,270",
+      "cooldown": "15,12,10",
+      "castRange": "10",
+      "area": "3,4,5",
+      "areaType": "circle",
+      "levelUpRequires": [
+        ["itachi_sharingan","fighter:6"],
+        ["fighter:12"],
+        ["fighter:18"]
+      ],
+      "requires": [["itachi_sharingan:active"]]
+    }
+  ],
+  "effects": [
+    {
+      "id": "itachi_sharingan",
+      "name": "Sharingan 1, Sharingan 2, Sharingan 3, Mangekyou Sharingan",
+      "type": "buff",
+      "duration": null,
+      "dispellableType": 0,
+      "attributes": {
+        "dodge":"15,20,25,30"
+      }
+    },
+    {
+      "id": "itachi_tsukuyomi",
+      "name": "Tsukuyomi",
+      "type": "debuff",
+      "duration": "1,2,3,4",
+      "dispellableType": 0,
+      "attributes": {
+        "disarmed":"true",
+        "silenced":"true",
+        "move_speed": "-50%"
+      }
+    },
+    {
+      "id": "itachi_amaterasu",
+      "name": "Amaterasu",
+      "type": "debuff",
+      "duration": "4,6,8",
+      "dispellableType": 2,
+      "attributes": {
+        "damage": "100,125,150"
+      }
+    }
+  ]
+}

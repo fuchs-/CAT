@@ -1,0 +1,135 @@
+{
+  "id": "phantom_assassin",
+  "name": "Phantom Assassin",
+  "shortName": "PA",
+  "universe": "Dota2",
+  "affiliation": "Agility",
+  "power": 100,
+  
+  "strength": 21,
+  "strengthGain": 2.2,
+  "agility": 23,
+  "agilityGain": 3.7,
+  "intelligence": 15,
+  "intelligenceGain": 1.4,
+  
+  "HP": 200,
+  "HPRegen": 0.25,
+  "MP": 75,
+  "MPRegen": 0,
+  
+  "moveSpeed": 3,
+  "armor": 1,
+  "magicResistance": 25,
+  "attackDamage": 24,
+  "attackSpeed": 0.59,
+  "attackRange": 1,
+  "criticalChance": 0,
+  "criticalDamage": 0,
+  "spellDamage": 0,
+  
+  "abilities": [
+    {
+      "id": "pa_stifling_dagger",
+      "name": "Stifling Dagger",
+      "scriptFunctionName": "stiflingDagger",
+      "image": "pa_stifling_dagger",
+      "type": "unit-target",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": "30",
+      "cooldown": "6",
+      "castRange": "2,4,5,6",
+      "area": "3",
+      "areaType": null,
+      "levelUpRequires": [
+        ["fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"]
+      ],
+      "requires": null
+    },
+    {
+      "id": "pa_phantom_strike",
+      "name": "Phantom Strike",
+      "scriptFunctionName": "phantomStrike",
+      "image": "pa_phantom_strike",
+      "type": "unit_target",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": "35,40,45,50",
+      "cooldown": "11,9,7,5",
+      "castRange": "1000",
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": [
+        ["fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"]
+      ],
+      "requires": null
+    },
+    {
+      "id": "pa_blur",
+      "name": "Blur",
+      "scriptFunctionName": "blur",
+      "image": "pa_blur",
+      "type": "passive",
+      "maxLevel": 4,
+      "isUltimate": false,
+      "manaCost": null,
+      "cooldown": null,
+      "castRange": null,
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": [
+        ["fighter:3"],
+        ["fighter:5"],
+        ["fighter:7"]
+      ],
+      "requires": null
+    },
+    {
+      "id": "pa_coup_de_grace",
+      "name": "Coup de Grace",
+      "scriptFunctionName": "coupDeGrace",
+      "image": "pa_coup_de_grace",
+      "type": "attack_modifier",
+      "maxLevel": 3,
+      "isUltimate": true,
+      "manaCost": "0",
+      "cooldown": "0",
+      "castRange": null,
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": [
+        ["fighter:6"],
+        ["fighter:12"],
+        ["fighter:18"]
+      ],
+      "requires": null
+    }
+  ],
+  "effects": [
+    {
+      "id": "pa_stifling_dagger",
+      "name": "Stifling Dagger",
+      "type": "debuff",
+      "duration": "1.75,2.5,3.25,4",
+      "dispellableType": 0,
+      "attributes": {
+        "move_speed": "-50%"
+      }
+    },
+    {
+      "id": "pa_phantom_strike",
+      "name": "Phantom Strike",
+      "type": "buff",
+      "duration": "2",
+      "dispellableType": 0,
+      "attributes": {
+        "attack_speed": "100,125,150,175"
+      }
+    }
+  ]
+}

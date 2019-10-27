@@ -1,0 +1,48 @@
+{
+  "id": "beastmaster_boar_1",
+  "name": "Boar",
+  "HP": 300,
+  "HPRegen": 1.5,
+  "MP": 0,
+  "MPRegen": 0,
+  "moveSpeed": 4,
+  "armor": 0,
+  "magicResistance": 0,
+  "attackDamage": 16,
+  "attackSpeed": 1,
+  "attackRange": 2,
+  "criticalChance": 0,
+  "criticalDamage": 0,
+  "spellDamage": 0,
+  "abilities": [
+    {
+      "id": "beastmaster_boar_poison",
+      "name": "Poison",
+      "scriptFunctionName": "poison",
+      "image": null,
+      "type": "attack_modifier",
+      "maxLevel": 0,
+      "isUltimate": false,
+      "manaCost": "0",
+      "cooldown": "0",
+      "castRange": null,
+      "area": null,
+      "areaType": null,
+      "levelUpRequires": null,
+      "requires": null
+    }
+  ],
+  "effects": [
+    {
+      "id": "beastmaster_boar_poison",
+      "name": "Boar Poison",
+      "type": "debuff",
+      "duration": "3",
+      "dispellableType": 0,
+      "attributes": {
+        "move-speed": "10,20,30,40%",
+        "attack-speed": "10,20,30,40%"
+      }
+    }
+  ]
+}

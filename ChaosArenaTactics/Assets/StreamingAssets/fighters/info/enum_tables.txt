@@ -1,0 +1,25 @@
+ability types:
+passive
+attack_modifier
+no_target
+toggle
+point_target
+area_target
+unit_target
+unit_aoe_target
+
+area types:
+circle
+cone
+rectangle
+rectangle_from_player
+square
+
+effect types:
+buff
+debuff
+
+effect dispellable types:
+0 = Dispellable by any dispel
+1 = Dispellable by strong dispels only
+2 = Undispellable

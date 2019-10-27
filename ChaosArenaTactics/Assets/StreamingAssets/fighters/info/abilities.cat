@@ -1,0 +1,23 @@
+//Q
+function stiflingDagger()
+{
+    caster.damage([75,100,125,150])
+    target.damageOrHeal([100,150,200,250])
+}
+
+//W
+function aphoticShield()
+{
+    target.addShieldWithCallback([110,140,170,200], 5, aphoticShieldBurst)
+}
+
+function aphoticShieldBurst()
+{
+    wearer.withinRange(675).enemies.damage([110,140,170,200])
+}
+
+//E (on basic attack)
+function curseOfAvernus()
+{
+    
+}

@@ -1,0 +1,4 @@
+"[ability-id]" = ability has been leveled at least to level 1
+"[ability-id]:[int]" = ability has been leveled at least to level [int]
+"[ability-id]:[active]" = ability is currently active (referenced ability has to be of type toggle)
+"[ability-id]:[off-cooldown]" = ability is off cooldown

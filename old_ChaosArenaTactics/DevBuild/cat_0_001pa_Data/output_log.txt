@@ -1,0 +1,85 @@
+Mono path[0] = 'C:/Users/ferna/Projects/2_Backburner/CAT/DevBuild/cat_0_001pa_Data/Managed'
+Mono path[1] = 'C:/Users/ferna/Projects/2_Backburner/CAT/DevBuild/cat_0_001pa_Data/Mono'
+Mono config path = 'C:/Users/ferna/Projects/2_Backburner/CAT/DevBuild/cat_0_001pa_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/ferna/Projects/2_Backburner/CAT/DevBuild/cat_0_001pa_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55179
+Multi-casting "[IP] 192.168.1.93 [Port] 55179 [Flags] 2 [Guid] 2628893599 [EditorId] 3540636227 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-6HEGI1D) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55179]
+PlayerConnection already initialized - listening to [0.0.0.0:55179]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   20.19.15.4835
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ferna\Projects\2_Backburner\CAT\DevBuild\cat_0_001pa_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 2966x904 at 0,-136
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.376619 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.571268 ms
+System memory in use before: 16.2 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 0.306307 ms (FindLiveObjects: 0.019244 ms CreateObjectMapping: 0.013150 ms MarkObjects: 0.262045 ms  DeleteObjects: 0.011225 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.694403 ms
+System memory in use before: 16.0 MB.
+System memory in use after: 16.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.216820 ms (FindLiveObjects: 0.014112 ms CreateObjectMapping: 0.012188 ms MarkObjects: 0.180897 ms  DeleteObjects: 0.008980 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.463470 ms
+System memory in use before: 16.2 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 376.
+Total: 0.234140 ms (FindLiveObjects: 0.018282 ms CreateObjectMapping: 0.012829 ms MarkObjects: 0.191482 ms  DeleteObjects: 0.010584 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.242229 ms
+System memory in use before: 16.2 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 375.
+Total: 0.280006 ms (FindLiveObjects: 0.021489 ms CreateObjectMapping: 0.013791 ms MarkObjects: 0.217783 ms  DeleteObjects: 0.026300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.482073 ms
+System memory in use before: 16.3 MB.
+System memory in use after: 16.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 376.
+Total: 0.273912 ms (FindLiveObjects: 0.024697 ms CreateObjectMapping: 0.013150 ms MarkObjects: 0.223877 ms  DeleteObjects: 0.011225 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.515109 ms
+System memory in use before: 16.2 MB.
+System memory in use after: 16.2 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 240.
+Total: 0.189878 ms (FindLiveObjects: 0.020206 ms CreateObjectMapping: 0.012508 ms MarkObjects: 0.123164 ms  DeleteObjects: 0.033036 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3784 -> priority: 1 

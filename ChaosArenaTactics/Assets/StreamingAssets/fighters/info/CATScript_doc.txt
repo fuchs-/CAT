@@ -1,0 +1,24 @@
+
+.addShield(capacity, duration) - adds a shield to referenced fighter that resists 'capacity' damage
+                                    and lasts for 'duration' turns
+.addShieldWithCallback(capacity, duration, onDestroy) - onDestroy() gets called when the shield breaks
+
+.allies - returns all allies within the referenced fighters (see also '.allies')
+
+caster - reference to the fighter casting the ability
+
+.damage(ammount) - deals damage to the referenced fighter
+.damageOrHeal(ammount) - deals damage if target is enemy and heals if target is allied
+
+.enemies - returns all allies within the referenced fighters (see also '.allies')
+
+operator [] - use different values for different ability levels  
+                eg.: self.damage([50,100,150,200])
+
+.random - selects a random fighter between the referenced fighters
+
+target - reference to the fighter targeted by the ability
+
+.withinRange(range) - gets all fighters within the specified range from the referenced fighter
+
+
